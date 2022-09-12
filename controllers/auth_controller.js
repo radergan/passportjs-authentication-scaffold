@@ -7,6 +7,7 @@ exports.signin = function(req, res) {
     res.render('signin');
 }
 exports.home = function(req, res) {
+    console.log(req.user);
     res.render('home');
 }
 exports.logout = function(req, res) {

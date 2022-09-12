@@ -11,11 +11,17 @@ html {
 body {
   font-size: 1.6rem;
 }
-
-.header {
-  background-color: #0078d7;
+h1,h2,h3,h4,h5,h6{
+  margin-bottom:0.3rem;
+}
+.main-header {
+  background-color: #dadada;
   color: #fff;
   padding: 2rem;
+}
+
+.main-content{
+  padding:2rem;
 }
 
 .navigation {
